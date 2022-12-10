@@ -1,0 +1,1627 @@
+@font-face {
+  font-family: campton;
+  src: url(../fonts/campton-cufonfonts/CamptonLight.otf);
+}
+
+.smartNew-main {
+  background-color: #001B3D;
+}
+
+.smartNew-main .first-screen {
+  min-height: 100%;
+  padding-bottom: 80px;
+}
+
+.smartNew-main .heading {
+  font-family: campton;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.smartNew-main .header.sticky .btn-sign-in {
+  color: white;
+  background-color: #05B4EF;
+}
+
+.first-screen .moreless-button {
+  color: #05B4EF;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+
+.first-screen .moretext {
+  display: none;
+}
+
+.first-screen .effect1 {
+  height: 400px;
+  top: 0;
+  position: absolute;
+  right: 0;
+}
+
+.first-screen .effect2 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.first-screen .headingBar {
+  width: 180px;
+  height: 7px;
+  background: #05B4EF;
+  margin-left: auto;
+  margin-right: 45px;
+}
+
+.smartNew-main .hr1 {
+  height: 2px;
+  background: #707070;
+  width: 85%;
+  margin: auto;
+}
+
+.smartNew-main .crossBridge-SecNew {
+  padding: 80px 0;
+}
+
+.smartNew-main .crossBridge-SecNew .content {
+  color: #fff;
+  text-align: center;
+}
+
+.smartNew-main .bridgeBtn {
+  background-color: #05B4EF;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  height: 60px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.smartNew-main .bridgeBtn:hover {
+  background-color: #fff;
+  color: #05B4EF;
+
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.smartNew-main .timeToEarn-Sec {
+  padding: 50px 20px;
+  background: linear-gradient(90deg, #0D2747, rgba(255, 255, 255, 0));
+  border-radius: 45px;
+  margin: 20px 0;
+}
+
+.smartNew-main .timeToEarn-Sec .content .current {
+  color: #05B4EF;
+  font-family: campton;
+  font-size: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.smartNew-main .timeToEarn-Sec .content .desc {
+  color: #fff;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.smartNew-main .availableSec {
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.smartNew-main .availableSec .cercleImg {
+  max-width: 255px;
+}
+
+.smartNew-main .availableSec .logoMain {
+  position: absolute;
+  width: 100%;
+  top: 210px;
+  z-index: 2;
+}
+
+.smartNew-main .availableSec .heading {
+  margin-bottom: 70px;
+}
+
+.smartNew-main .availableSec .logoMain .uniswapImgDiv {
+  text-align: center;
+  transition: all 0.4s;
+}
+
+.smartNew-main .availableSec .logoMain .uniswapImgDiv img {
+  text-align: center;
+  width: 40%;
+  transition: all 0.4s;
+  margin-right: 30px;
+}
+
+.smartNew-main .availableSec .logoMain .uniswapImgDiv img:hover {
+  transform: scale(1.2);
+  transition: all 0.4s;
+}
+
+.smartNew-main .availableSec .logoMain .okxImgDiv {
+  text-align: center;
+  /* margin-right: 59px; */
+  transition: all 0.4s;
+}
+
+.smartNew-main .availableSec .logoMain .okxImgDiv img {
+  width: 51%;
+  transition: all 0.4s;
+  margin-right: 30px;
+}
+
+.smartNew-main .availableSec .logoMain .okxImgDiv img:hover {
+  transform: scale(1.2);
+  transition: all 0.4s;
+}
+
+.smartNew-main .availableSec .logoMain .pancakeImgDiv {
+  text-align: center;
+  /* margin-right: 59px; */
+  transition: all 0.4s;
+}
+
+.smartNew-main .availableSec .logoMain .pancakeImgDiv img {
+  width: 46%;
+  transition: all 0.4s;
+  margin-right: 47px;
+}
+
+.smartNew-main .availableSec .logoMain .pancakeImgDiv img:hover {
+  transform: scale(1.2);
+  transition: all 0.4s;
+}
+
+.smartNew-main .availableSec .logoMain .gitbuketImgDiv {
+  text-align: center;
+  /* margin-right: 59px; */
+  transition: all 0.4s;
+}
+
+.smartNew-main .availableSec .logoMain .gitbuketImgDiv img {
+  width: 34%;
+  transition: all 0.4s;
+  margin-right: 58px;
+}
+
+.smartNew-main .availableSec .logoMain .gitbuketImgDiv img:hover {
+  transform: scale(1.2);
+  transition: all 0.4s;
+}
+
+.smartNew-main .availableSec .logoMain .stakeQDiv {
+  text-align: center;
+  /* margin-right: 59px; */
+  transition: all 0.4s;
+}
+
+.smartNew-main .availableSec .logoMain .stakeQDiv img {
+  width: 34%;
+  transition: all 0.4s;
+  margin-right: 58px;
+}
+
+.smartNew-main .availableSec .logoMain .stakeQDiv img:hover {
+  transform: scale(1.2);
+  transition: all 0.4s;
+}
+
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.smartNew-main .availableSec .effectRight {
+  position: absolute;
+  top: 60%;
+  transform: translate(0%, -50%);
+  max-height: 800px;
+  right: -400px;
+}
+
+.smartNew-main .availableSec .effectLeft {
+  position: absolute;
+  top: 60%;
+  transform: translate(0%, -50%);
+  max-height: 800px;
+  left: -400px;
+}
+
+.smartNew-main .tokenomics {
+  padding: 30px 0;
+}
+
+.smartNew-main .tokenomics .content {
+  background: linear-gradient(90deg, #0D2747, rgba(255, 255, 255, 0));
+  border-radius: 25px;
+  margin: 20px 0;
+  padding: 25px;
+  padding-right: 0;
+  color: white;
+}
+
+.smartNew-main .tokenomics .content .row1 {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  padding: 0 10px;
+}
+
+.smartNew-main .tokenomics .content .row1 h6 {
+  font-size: 18px;
+}
+
+.smartNew-main .tokenomics .content .row1 .value {
+  font-weight: normal;
+  min-width: 152px;
+  text-align: right;
+}
+
+.smartNew-main .tokenomics .content .row2 {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 15px;
+}
+
+.smartNew-main .tokenomics .content .row2 .title {
+  font-size: 16px;
+}
+
+.smartNew-main .tokenomics .content .row2 .val {
+  font-size: 18px;
+  color: #05B4EF;
+  font-weight: 600;
+}
+
+.text.center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+.smartNew-main .tokenDistribution {
+  margin-bottom: 30px;
+}
+
+.smartNew-main .tokenDistribution .row1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 10px 15px;
+  padding-top: 15px;
+}
+
+.smartNew-main .tokenDistribution .col1 {
+  display: flex;
+  justify-content: space-between;
+
+  /* flex-grow: 1;
+    max-width: 100%;
+    -webkit-flex-basis: 0;
+    flex-basis: 0; */
+}
+
+.smartNew-main .tokenDistribution .dist {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.smartNew-main .tokenDistribution .dist .color {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.smartNew-main .tokenDistribution .dist p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.smartNew-main .tokenDistribution .presale {
+  background: #09407F;
+}
+
+.smartNew-main .tokenDistribution .liquidity {
+  background: #17A1C6;
+}
+
+.smartNew-main .tokenDistribution .staking {
+  background: #C6C6C6;
+}
+
+.smartNew-main .tokenDistribution .swap {
+  background: #C6637C;
+}
+
+.smartNew-main .tokenDistribution .share {
+  background: #26C680;
+}
+
+.smartNew-main .tokenDistribution .burn {
+  background: #C6C345;
+}
+
+.smartNew-main .tokenDistribution .marketing {
+  background: #BA83C6;
+}
+
+.smartNew-main .tokenDistribution .airdrop {
+  background: #C6A485;
+}
+
+/* roadmap */
+
+.smartNew-main .roadmapSecNew {
+  padding: 100px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.smartNew-main .roadmapSecNew .roadBox {
+  max-width: 245px;
+  position: relative;
+}
+
+.smartNew-main .roadmapSecNew .roadBox .lines {
+  position: absolute;
+  left: -105px;
+  top: 20px;
+  z-index: -2;
+  height: 150px;
+}
+
+.smartNew-main .roadmapSecNew .roadBox .title {
+  color: white;
+  font-size: 21px;
+  margin-left: 55px;
+}
+
+.smartNew-main .roadmapSecNew .roadBox .title span {
+  color: #05B4EF;
+  font-size: 35px;
+  margin-right: 7px;
+}
+
+.smartNew-main .roadmapSecNew .roadBox .roadCard {
+  font-size: 15px;
+  color: #fff;
+  background: #142D4C;
+  border-top-right-radius: 60px;
+  padding: 20px;
+  height: 214px;
+  display: flex;
+  align-items: center;
+}
+
+.smartNew-main .roadmapSecNew .row2 .roadBox {
+  margin-left: 19%;
+}
+
+.smartNew-main .roadmapSecNew .row3 .roadBox {
+  margin: auto;
+}
+
+.smartNew-main .roadmapSecNew .row4 .roadBox {
+  margin-left: auto;
+  margin-right: 20%;
+}
+
+.smartNew-main .roadmapSecNew .row5 .roadBox {
+  margin-left: auto;
+}
+
+.smartNew-main .roadmapSecNew .effectRight {
+  position: absolute;
+  top: 18%;
+  /* transform: translate(0%, -50%); */
+  max-height: 800px;
+  right: -420px;
+}
+
+.smartNew-main .roadmapSecNew .effectLeft {
+  position: absolute;
+  bottom: -7%;
+  /* transform: translate(0%, -50%); */
+  max-height: 800px;
+  left: -420px;
+}
+
+.smartNew-main .roadmapSecNew .cross {
+  position: absolute;
+  right: 20%;
+  top: 26%;
+  width: 40px;
+}
+
+.smartNew-main .roadmapSecNew .ball1 {
+  position: absolute;
+  right: 42%;
+  top: 20%;
+  width: 30px;
+}
+
+.smartNew-main .roadmapSecNew .ball2 {
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  width: 40px;
+}
+
+.smartNew-main .roadmapSecNew .ball3 {
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  width: 45px;
+}
+
+.smartNew-main .roadmapSecNew .ball4 {
+  position: absolute;
+  left: 8%;
+  bottom: 17%;
+  width: 140px;
+}
+
+.smartNew-main .roadmapSecNew .star2 {
+  position: absolute;
+  left: 40%;
+  bottom: 10%;
+  width: 45px;
+}
+
+.smartNew-main .roadmapSecNew .cross2 {
+  position: absolute;
+  left: 20%;
+  bottom: 0%;
+  width: 45px;
+}
+
+/* complete project */
+.completeProjectSec {
+  padding: 100px 0;
+}
+
+.completeProjectSec .projectCardGradient1 {
+  background: linear-gradient(180deg, #142D4C, rgba(255, 255, 255, 0));
+}
+
+.completeProjectSec .projectCardGradient2 {
+  background: linear-gradient(0deg, #142D4C, rgba(255, 255, 255, 0));
+}
+
+.completeProjectSec .projectCard {
+  height: 332px;
+  padding: 50px 15px;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  transition: all 0.5s;
+
+}
+
+.completeProjectSec .projectCard h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  height: 82px;
+}
+
+.completeProjectSec .projectCard .mainImg {
+  max-height: 120px;
+}
+
+.completeProjectSec .projectCard .mainImgHover {
+  max-height: 50px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.completeProjectSec .projectCard .desc {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  display: none;
+}
+
+.completeProjectSec .projectCard .desc p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  /* number of lines to show */
+  max-height: 92.4px;
+}
+
+.completeProjectSec .projectCard .desc a {
+  font-weight: bold;
+  color: white;
+}
+
+.completeProjectSec .projectCard:hover {
+  background: #05B4EF;
+}
+
+.completeProjectSec .projectCard:hover .mainImg {
+  display: none;
+}
+
+.completeProjectSec .projectCard:hover .mainImgHover {
+  display: block;
+}
+
+.completeProjectSec .projectCard:hover .desc {
+  display: block;
+}
+
+.completeProjectSec .projectCard:hover h3 {
+  margin-bottom: 20px;
+  height: unset;
+}
+
+
+
+.smartNew-main .documentSec .heading {
+  margin-bottom: 50px;
+}
+
+.smartNew-main .documentSec .effectleft {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  max-height: 800px;
+  left: -420px;
+}
+
+.smartNew-main .documentSec .docCard {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #142D4C, rgba(255, 255, 255, 0.05));
+  padding: 27px 30px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  transition: all 0.5s;
+}
+
+.smartNew-main .documentSec .docCard:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.smartNew-main .documentSec .docCard .title {
+  display: flex;
+  align-items: center;
+}
+
+.smartNew-main .documentSec .docCard .title img {
+  width: 65px;
+  margin-right: 35px;
+}
+
+.smartNew-main .documentSec .docCard .title p {
+  font-size: 28px;
+  color: white;
+}
+
+.smartNew-main .documentSec .docCard .downloadImg {
+  width: 30px;
+}
+
+.smartNew-main .documentSec .imgDiv {
+  max-width: 490px;
+}
+
+.display-block {
+  display: block;
+}
+
+.smartNew-main .teamSection {
+  padding: 80px 0;
+}
+
+.smartNew-main .teamSection .heading {
+  margin-bottom: 70px;
+}
+
+.smartNew-main .teamSection .teamMainCard {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.smartNew-main .teamSection .teamMainCard .imgDiv {
+  max-height: 380px;
+  overflow: hidden;
+}
+
+.smartNew-main .teamSection .teamMainCard .imgDiv img {
+  width: 100%;
+}
+
+.smartNew-main .teamSection .teamMainCard .content {
+  background: #142D4C;
+  padding: 20px 10px;
+  text-align: center;
+  color: white;
+}
+
+.smartNew-main .teamSection .nameMain {
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.smartNew-main .teamSection .designationMain {
+  color: #CFD3D7;
+  font-size: 20px;
+}
+
+.smartNew-main .teamSection .detailMain .desc {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.smartNew-main .teamSection .socialMain a img {
+  width: 40px;
+}
+
+.smartNew-main .teamSection .teamCard .socialMain a img {
+  width: 30px;
+}
+
+.smartNew-main .teamSection .socialMain a {
+  display: inline-block;
+  margin-right: 5px;
+  transition: all 0.3s;
+}
+
+.smartNew-main .teamSection .socialMain a:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.smartNew-main .teamSection .teamCard {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.smartNew-main .teamSection .teamCard .imgDiv {
+  height: 250px;
+  overflow: hidden;
+  background: white;
+}
+
+.smartNew-main .teamSection .teamCard .imgDiv img {
+  width: 100%;
+}
+
+.smartNew-main .teamSection .teamCard .content {
+  background: #142D4C;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.smartNew-main .teamSection .teamCard .name {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 7px;
+  line-height: normal;
+}
+
+.smartNew-main .teamSection .teamCard .designation {
+  color: #CFD3D7;
+  font-size: 16px;
+}
+
+.smartNew-main .teamSectionNew {
+  padding: 80px 0;
+}
+
+.smartNew-main .teamSectionNew .heading {
+  margin-bottom: 70px;
+}
+
+.smartNew-main .teamSectionNew .teamMainCard {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.smartNew-main .teamSectionNew .teamMainCard .imgDiv {
+  max-height: 380px;
+  overflow: hidden;
+}
+
+.smartNew-main .teamSectionNew .teamMainCard .imgDiv img {
+  width: 100%;
+}
+
+.smartNew-main .teamSectionNew .teamMainCard .content {
+  background: #142D4C;
+  padding: 20px 10px;
+  text-align: center;
+  color: white;
+}
+
+.smartNew-main .teamSectionNew .nameMain {
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.smartNew-main .teamSectionNew .designationMain {
+  color: #CFD3D7;
+  font-size: 20px;
+}
+
+.smartNew-main .teamSectionNew .detailMain .desc {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.smartNew-main .teamSectionNew .socialMain a img {
+  width: 40px;
+}
+
+.smartNew-main .teamSectionNew .teamCard .socialMain a img {
+  width: 30px;
+}
+
+.smartNew-main .teamSectionNew .socialMain a {
+  display: inline-block;
+  margin-right: 5px;
+  transition: all 0.3s;
+}
+
+.smartNew-main .teamSectionNew .socialMain a:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.smartNew-main .teamSectionNew .teamCard {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.smartNew-main .teamSectionNew .teamCard .imgDiv.waqarImg {
+  display: flex;
+  align-items: flex-start;
+}
+.smartNew-main .teamSectionNew .teamCard .imgDiv {
+  height: 250px;
+  overflow: hidden;
+  background: white;
+  /* display: flex;
+  align-items: flex-end;
+  justify-content: center; */
+}
+
+.smartNew-main .teamSectionNew .teamCard .imgDiv img {
+  width: 100%;
+}
+
+.smartNew-main .teamSectionNew .teamCard .content {
+  background: #142D4C;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.smartNew-main .teamSectionNew .teamCard .name {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 7px;
+  line-height: normal;
+}
+
+.smartNew-main .teamSectionNew .teamCard .designation {
+  color: #CFD3D7;
+  font-size: 16px;
+}
+
+.mt-6 {
+  margin-top: 2.5rem;
+}
+
+.smartNew-main footer {}
+
+.smartNew-main footer .innerFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ADB1C2;
+}
+
+.smartNew-main footer .innerFooter .socialMain a {
+  display: inline-block;
+  margin-left: 3px;
+  transition: all 0.3s;
+}
+
+.smartNew-main footer .innerFooter .socialMain a:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.smartNew-main footer .innerFooter .socialMain a img {
+  width: 40px;
+}
+
+.smartNew-main footer .logoMain img {
+  width: 130px;
+}
+
+.smartNew-main footer .copyRight {
+  padding: 20px;
+  color: #ADB1C2;
+  text-align: center;
+}
+
+.vertical-end {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.smartNew-main .menu__link:hover {
+  color: white;
+}
+
+.smartNew-main .menu__link:after {
+  border-bottom: 2px solid #fff;
+}
+
+.typing-demo {
+  font-family: campton;
+  text-align: left;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+
+/* Mustafa Addition */
+.playToEarn {
+  margin-top: 100px;
+}
+
+.playHeading {
+  text-align: center;
+  font-family: "Campton";
+  color: white !important;
+}
+
+.cardPlayToEarn {
+  background-color: #0D2747;
+  border-radius: 25px;
+  margin: 20px 0;
+  padding: 25px;
+  color: white;
+}
+.cardPlayToEarn h4 {
+  color: white;
+  text-align: center;
+  font-size: large;
+  font-family: "Campton";
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.cardPlayToEarnImg {
+  display: flex;
+  justify-content: center;
+  height: 400px;  
+  margin: auto;
+}
+.cardPlayToEarn div img {
+  max-height: 350px;
+  max-width: 450px;
+
+}
+.cardPlayToEarn p {
+  color: white;
+  text-align: center;
+  font-family: "Catamaran";
+  font-size: 18px;
+  height: 100px;
+}
+.cardPlayToEarn .cardPlayToEarnBtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.cardPlayToEarn .cardPlayToEarnBtn button {
+  background-color: #05B4EF;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  padding: 8px 60px;
+  height: auto !important;
+  line-height: normal !important;
+}
+
+.cardPlayToEarn .Ludo_NFT img {
+  max-width: 355px;
+  width: 100%;
+}
+
+.smartNew-main .header.sticky .logo__img2 {
+  width: 130px;
+}
+.smartNew-main .header.sticky .menu__link {
+  color: white;
+}
+
+
+.smartNew-main .community .comunityCard .innerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  /* border-bottom: 1px solid #343A59; */
+}
+
+.smartNew-main .community .comunityCard .innerFooter .socialMain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.smartNew-main .community .comunityCard .innerFooter .socialMain .discord {
+  height: 38px;
+  width: 38px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.smartNew-main .community .comunityCard .innerFooter .socialMain .discord img{
+  width: 22px;
+}
+.smartNew-main .community .comunityCard .innerFooter .socialMain a {
+  display: inline-block;
+  margin: 0 5px;
+  margin-bottom: 4px;
+  transition: all 0.3s;
+}
+
+.smartNew-main .community .comunityCard .innerFooter .socialMain a:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.smartNew-main .community .comunityCard .innerFooter .socialMain a img {
+  width: 38px;
+}
+
+.smartNew-main .community .comunityCard .logoMain img {
+  width: 130px;
+}
+
+
+.smartNew-main .community {
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+.smartNew-main .community .comunityCard {
+  padding: 50px 10px;
+  background: #1A3251;
+  border-radius: 30px;
+}
+
+.smartNew-main .community .comunityCard .heading {
+  font-size: 50px;
+}
+
+.smartNew-main .community .comunityCard p {
+  margin-bottom: 30px;
+}
+
+.smartNew-main .community .comunityCard .connectDiscord {
+  padding: 14px 45px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+}
+
+.smartNew-main .community .comunityCard .connectDiscord:hover {
+  background: #05B4EF;
+  color: #fff;
+}
+
+
+
+
+@media(max-width:576px) {
+  .smartNew-main .community .comunityCard {
+    padding-left: 5px;
+    padding: 5px;
+  }
+  .smartNew-main .community .comunityCard .heading {
+    font-size: 35px;
+  }
+  .smartNew-main .community .comunityCard .innerFooter .socialMain a {
+    margin: 0 3px;
+  }
+  .smartNew-main .community .comunityCard .innerFooter .socialMain a:first-child {
+    margin-left: 0;
+  }
+  .smartNew-main .community .comunityCard .innerFooter .socialMain a:last-child {
+    margin-right: 0;
+  }
+  .smartNew-main .teamSectionNew {
+    padding: 80px 15px;
+  }
+  .typing-demo {
+    font-size: 27px;
+  }
+
+  .smartNew-main .teamSection .nameMain {
+    font-size: 27px;
+  }
+
+  .smartNew-main .teamSection .designationMain {
+    font-size: 18px;
+  }
+  .smartNew-main .teamSectionNew .nameMain {
+    font-size: 27px;
+  }
+
+  .smartNew-main .teamSectionNew .designationMain {
+    font-size: 18px;
+  }
+
+  .smartNew-main .roadmapSecNew .effectRight {
+    top: 28%;
+    max-height: 700px;
+    right: -369px;
+  }
+
+  .smartNew-main .first-screen .headingBar {
+    margin-right: 0;
+  }
+
+  .smartNew-main .first-screen {
+    padding-top: 140px;
+  }
+
+  .smartNew-main .first-screen .heading {
+    line-height: normal;
+  }
+
+  .smartNew-main .availableSec .effectRight {
+    max-height: 600px;
+    right: -300px;
+  }
+
+  .smartNew-main .availableSec .effectLeft {
+    max-height: 600px;
+    left: -300px;
+  }
+
+  .smartNew-main .availableSec .logoMain {
+    top: 170px;
+  }
+
+  .smartNew-main .availableSec .heading {
+    margin-bottom: 30px;
+  }
+
+  .smartNew-main .tokenomics .heading {
+    margin-bottom: 0;
+  }
+
+  .smartNew-main .heading {
+    font-size: 35px;
+  }
+
+  .smartNew-main .crossBridge-SecNew .heading {
+    line-height: normal;
+  }
+
+  .smartNew-main .tokenomics .content {
+    padding: 25px 10px;
+  }
+
+
+  .completeProjectSec .projectCardGradient2 {
+    background: linear-gradient(180deg, #142D4C, rgba(255, 255, 255, 0));
+  }
+
+  .smartNew-main .teamSection .teamCard {
+    max-width: 310px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .smartNew-main .teamSectionNew .teamCard {
+    max-width: 310px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .smartNew-main footer .innerFooter {
+    flex-direction: column;
+  }
+
+  .smartNew-main footer .innerFooter {
+    flex-direction: column;
+  }
+
+  .smartNew-main footer .logoMain {
+    margin-bottom: 20px;
+  }
+
+  .smartNew-main footer .innerFooter .socialMain a img {
+    width: 34px;
+  }
+
+  .smartNew-main .documentSec .docCard {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .smartNew-main .documentSec .docCard .title img {
+    margin-right: 15px;
+  }
+
+  .smartNew-main .documentSec .docCard .title p {
+    font-size: 20px;
+  }
+
+  .smartNew-main .documentSec .docCard .title img {
+    width: 50px;
+  }
+
+  .smartNew-main .documentSec .heading {
+    margin-bottom: 20px;
+  }
+
+  .smartNew-main .tokenomics .content .row1 h6 {
+    font-size: 16px;
+  }
+
+  .smartNew-main .availableSec .logoMain .uniswapImgDiv img {
+    width: 116px;
+  }
+
+  .smartNew-main .availableSec .logoMain .okxImgDiv img {
+    width: 148px;
+  }
+
+  .smartNew-main .availableSec .logoMain .pancakeImgDiv img {
+    width: 115px;
+    margin-right: 35px;
+
+  }
+
+  .smartNew-main .availableSec .logoMain .gitbuketImgDiv img {
+    width: 102px;
+    margin-right: 35px;
+
+  }
+
+  .smartNew-main .availableSec .logoMain .stakeQDiv img {
+    width: 102px;
+    margin-right: 35px;
+
+  }
+
+  .smartNew-main .availableSec .logoMain .uniswapImgDiv {
+    margin-bottom: 175px;
+  }
+
+  .smartNew-main .availableSec .logoMain .okxImgDiv {
+    margin-bottom: 180px;
+
+  }
+
+  .smartNew-main .availableSec .logoMain .pancakeImgDiv {
+    margin-bottom: 162px;
+  }
+
+  .smartNew-main .roadmapSecNew .roadBox .lines {
+    top: 0;
+  }
+
+  .cardPlayToEarnImg {
+    height: auto;
+  }
+  .cardPlayToEarnImg img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: unset !important;
+  }
+
+
+
+
+}
+
+@media(min-width:1200px) {
+  .smartNew-main .roadmapSecNew .row2 {
+    margin-top: -20px;
+  }
+
+  .smartNew-main .roadmapSecNew .row3 {
+    margin-top: -20px;
+  }
+
+  .smartNew-main .roadmapSecNew .row4 {
+    margin-top: -20px;
+  }
+
+  .smartNew-main .roadmapSecNew .row5 {
+    margin-top: -20px;
+  }
+
+  .smartNew-main .availableSec .logoMain {
+    top: 196px;
+  }
+
+  .smartNew-main .availableSec .logoMain .gitbuketImgDiv img {
+    margin-right: 54px;
+  }
+
+  .smartNew-main .availableSec .logoMain .stakeQDiv img {
+    margin-right: 54px;
+  }
+
+  .smartNew-main .availableSec .logoMain .pancakeImgDiv img {
+    margin-right: 35px;
+  }
+
+  .smartNew-main .availableSec .logoMain .okxImgDiv img {
+    margin-right: 22px;
+  }
+
+  .smartNew-main .availableSec .logoMain .uniswapImgDiv img {
+    margin-right: 16px;
+  }
+}
+
+@media(max-width:992px) {
+  .smartNew-main .availableSec .cercleImg {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .first-screen .imgDiv {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .smartNew-main .teamSection .teamMainCard {
+    margin-bottom: 20px;
+  }
+  .smartNew-main .teamSectionNew .teamMainCard {
+    margin-bottom: 20px;
+  }
+
+  .smartNew-main .documentSec .imgDiv {
+    margin: auto;
+  }
+
+  .smartNew-main .tokenomics .imgDiv {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .smartNew-main .timeToEarn-Sec .imgDiv {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .smartNew-main .crossBridge-SecNew .content {
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:768px) {
+  .smartNew-main .availableSec .logoMain .okxImgDiv {
+    margin-bottom: 180px;
+  }
+
+  .smartNew-main .availableSec .logoMain .pancakeImgDiv {
+    margin-bottom: 162px;
+  }
+
+  .smartNew-main .availableSec .logoMain .stakeQDiv {
+    margin-top: 158px;
+  }
+
+  .smartNew-main .roadmapSecNew .ball1 {
+    right: 10%;
+    top: 15%;
+  }
+
+  .smartNew-main .roadmapSecNew .cross {
+    right: unset;
+    left: 5%;
+    top: 32%;
+  }
+
+  .smartNew-main .roadmapSecNew .ball4 {
+    left: 2%;
+    bottom: 24%;
+    width: 60px;
+  }
+
+
+  .smartNew-main .roadmapSecNew .row2 .roadBox {
+    margin-left: auto;
+  }
+
+  .smartNew-main .roadmapSecNew .row4 .roadBox {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .smartNew-main .roadmapSecNew .row3 .roadBox {
+    margin-left: 0;
+  }
+
+  .smartNew-main .roadmapSecNew .row5 .roadBox {
+    margin-left: 0;
+  }
+}
+
+@media(max-width:1200px) and (min-width:992px) {
+  .smartNew-main .teamSection .teamCard .imgDiv {
+    height: 210px;
+
+  }
+  .smartNew-main .teamSectionNew .teamCard .imgDiv {
+    height: 280px;
+  }
+
+  .smartNew-main .availableSec .logoMain {
+    top: 200px;
+  }
+
+  .smartNew-main .roadmapSecNew .roadBox .lines {
+    top: 0;
+  }
+
+  .smartNew-main .availableSec .logoMain .stakeQDiv {
+    margin-top: 115px;
+  }
+
+  .smartNew-main .availableSec .logoMain .stakeQDiv img {
+    margin-right: 37px;
+  }
+}
+
+@media(max-width:992px) and (min-width:768px) {
+  .smartNew-main .availableSec .logoMain .uniswapImgDiv img {
+    width: 31%;
+  }
+
+  .smartNew-main .availableSec .logoMain .okxImgDiv img {
+    width: 38%;
+    margin-right: 48px;
+  }
+
+  .smartNew-main .availableSec .logoMain .uniswapImgDiv {
+    margin-bottom: 160px;
+  }
+
+  .smartNew-main .availableSec .logoMain .okxImgDiv {
+    margin-bottom: 130px;
+  }
+
+  .smartNew-main .availableSec .logoMain .gitbuketImgDiv img {
+    width: 26%;
+    margin-right: 53px;
+  }
+
+  .smartNew-main .availableSec .logoMain .stakeQDiv img {
+    width: 26%;
+    margin-right: 53px;
+  }
+
+  .smartNew-main .availableSec .logoMain .pancakeImgDiv img {
+    width: 36%;
+    margin-right: 21px;
+  }
+
+  .smartNew-main .teamSection .teamCard .imgDiv {
+    max-height: 290px;
+    height: unset;
+  }
+  .smartNew-main .teamSectionNew .teamCard .imgDiv {
+    height: 210px;
+  }
+
+  .smartNew-main .availableSec .logoMain .stakeQDiv {
+    margin-top: 170px;
+  }
+
+  .smartNew-main .availableSec .logoMain .stakeQDiv img {
+    margin-right: 38px;
+  }
+
+  .smartNew-main .availableSec .logoMain {
+    top: 197px;
+  }
+
+  .smartNew-main .roadmapSecNew .roadBox .lines {
+    top: 0;
+    left: -50px;
+  }
+}
+
+@media(max-width:576px) and (min-width:440px) {
+  .smartNew-main .roadmapSecNew .row3 .roadBox .lines {
+    left: unset;
+    right: -105px;
+    transform: rotateY(180deg);
+  }
+
+  .smartNew-main .roadmapSecNew .row5 .roadBox .lines {
+    left: unset;
+    right: -105px;
+    transform: rotateY(180deg);
+  }
+
+}
+
+@media(max-width:530px) {
+  .smartNew-main .teamSectionNew .teamCard .imgDiv {
+    height: 305px;
+  }
+}
+@media(max-width:350px) {
+  .smartNew-main .teamSectionNew .teamCard .imgDiv {
+    height: 255px;
+  }
+}
+
+@media(max-width:340px) {
+  .smartNew-main .roadmapSecNew .ball3 {
+    right: 4px;
+  }
+
+  .smartNew-main .roadmapSecNew .ball4 {
+    left: 4px;
+    width: 40px;
+  }
+}
+
+@media(max-width:440px) {
+  .smartNew-main .roadmapSecNew .row3 .roadBox .lines {
+    left: unset;
+    right: -50px;
+    transform: rotateY(180deg);
+  }
+
+  .smartNew-main .roadmapSecNew .row5 .roadBox .lines {
+    left: unset;
+    right: -50px;
+    transform: rotateY(180deg);
+  }
+
+  .smartNew-main .roadmapSecNew .roadBox .lines {
+    left: -50px;
+  }
+
+  .smartNew-main .roadmapSecNew .cross {
+    top: 38%;
+  }
+
+  .smartNew-main .roadmapSecNew .ball3 {
+    top: 56%;
+  }
+
+  .smartNew-main .roadmapSecNew .ball4 {
+    bottom: 20%;
+  }
+}
+
+@media(max-width:768px) and (min-width:576px) {
+  .smartNew-main .teamSection .teamCard .imgDiv {
+    height: 220px;
+  }
+  .smartNew-main .teamSectionNew .teamCard .imgDiv {
+    height: 220px;
+  }
+
+  .smartNew-main .availableSec .logoMain .uniswapImgDiv img {
+    width: 21%;
+  }
+
+  .smartNew-main .availableSec .logoMain .okxImgDiv img {
+    width: 27%;
+  }
+
+  .smartNew-main .availableSec .logoMain .pancakeImgDiv img {
+    width: 21%;
+    margin-right: 35px;
+
+  }
+
+  .smartNew-main .availableSec .logoMain .gitbuketImgDiv img {
+    width: 21%;
+    margin-right: 35px;
+
+  }
+
+  .smartNew-main .availableSec .logoMain .uniswapImgDiv {
+    margin-bottom: 175px;
+  }
+
+  .smartNew-main .availableSec .logoMain .gitbuketImgDiv img {
+    width: 20%;
+  }
+
+  .smartNew-main .availableSec .logoMain .stakeQDiv img {
+    width: 19%;
+    margin-right: 35px;
+  }
+
+  .smartNew-main .roadmapSecNew .roadBox .lines {
+    top: 0;
+  }
+
+  .smartNew-main .roadmapSecNew .row3 .roadBox .lines {
+    left: unset;
+    right: -105px;
+    transform: rotateY(180deg);
+  }
+
+  .smartNew-main .roadmapSecNew .row5 .roadBox .lines {
+    left: unset;
+    right: -105px;
+    transform: rotateY(180deg);
+  }
+
+}
