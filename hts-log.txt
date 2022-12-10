@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 10 Dec 2022 21:00:33 at https://tenup.io/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://tenup.io/ -O1 "D:\Website Themes\TenUp.io" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:01:20	Error: 	"Not Found" (404) at link https://tenup.io/path/to/image.jpg (from https://tenup.io/)
+21:01:29	Error: 	"Not Found" (404) at link https://tenup.io/libs/inc/TimeCircles.css (from https://tenup.io/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 28 seconds : 114 links scanned, 110 files written (73641871 bytes overall) [73220393 bytes received at 832049 bytes/sec], 614602 bytes transferred using HTTP compression in 17 files, ratio 23%, 5.8 requests per connection
+(2 errors, 0 warnings, 0 messages)
